@@ -1,7 +1,4 @@
 import { RestBot } from './lib/restbot/restbot';
-import $ from 'jquery';
-
-console.log('RestBot', RestBot);
 
 var bot = new RestBot(
     {
