@@ -2,26 +2,23 @@
   "name": "RestBot",
   "version": "0.0.1",
   "description": "Rest Client For Node and Browser",
-  "scripts": {
-    "test": ""
-  },
   "author": "nineohnine",
   "license": "ISC",
   "jspm": {
   	"format": "es6",
+    "directories": {
+			"lib": "lib"
+    },
   	"main": "/restbot/restbot",
   	"registry": "jspm",
-    "directories": {
-    	"lib": "lib"
-    },
     "dependencies": {
       "http": "github:jspm/nodelibs-http@^1.7.1",
       "https": "github:jspm/nodelibs-https@^0.1.0",
-    },
-    "devDependencies": {
-      "babel": "npm:babel-core@^5.1.13",
-      "babel-runtime": "npm:babel-runtime@^5.1.13",
-      "core-js": "npm:core-js@^0.9.4"
     }
-  }
+  },
+	"devDependencies": {
+		"babel": "npm:babel-core@^5.1.13",
+		"babel-runtime": "npm:babel-runtime@^5.1.13",
+		"core-js": "npm:core-js@^0.9.4"
+	}
 }
