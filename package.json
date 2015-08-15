@@ -2,15 +2,14 @@
   "name": "RestBot",
   "version": "0.0.1",
   "description": "Rest Client For Node and Browser",
-  "main": "index.js",
   "scripts": {
     "test": ""
   },
-  "author": "",
+  "author": "nineohnine",
   "license": "ISC",
   "jspm": {
   	"format": "es6",
-  	"main": "lib/restbot/restbot",
+  	"main": "/restbot/restbot",
   	"registry": "jspm",
     "directories": {
     	"lib": "lib"

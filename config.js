@@ -20,7 +20,6 @@ System.config({
     "core-js": "npm:core-js@0.9.18",
     "http": "github:jspm/nodelibs-http@1.7.1",
     "https": "github:jspm/nodelibs-https@0.1.0",
-    "jquery": "github:components/jquery@2.1.4",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },
