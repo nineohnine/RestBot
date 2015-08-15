@@ -7,7 +7,13 @@ var bot = new RestBot(
     }
 );
 
-bot.get('/search/repositories?q=language:python&sort=stars&order=desc')
+var params = {
+    q: "language:python",
+    sort: "stars",
+    order: "desc"
+};
+
+bot.get('/search/repositories', params)
     .then(
         (res) => {
             console.log("RESPONSE", res.response);
