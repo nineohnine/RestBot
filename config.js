@@ -29,17 +29,17 @@ System.config({
 //    "github:jspm/nodelibs-events@0.1.1": {
 //      "events": "npm:events@1.0.2"
 //    },
-//    "github:jspm/nodelibs-http@1.7.1": {
-//      "Base64": "npm:Base64@0.2.1",
-//      "events": "github:jspm/nodelibs-events@0.1.1",
-//      "inherits": "npm:inherits@2.0.1",
-//      "stream": "github:jspm/nodelibs-stream@0.1.0",
-//      "url": "github:jspm/nodelibs-url@0.1.0",
-//      "util": "github:jspm/nodelibs-util@0.1.0"
-//    },
-//    "github:jspm/nodelibs-https@0.1.0": {
-//      "https-browserify": "npm:https-browserify@0.0.0"
-//    },
+    "github:jspm/nodelibs-http@1.7.1": {
+      "Base64": "npm:Base64@0.2.1",
+      "events": "github:jspm/nodelibs-events@0.1.1",
+      "inherits": "npm:inherits@2.0.1",
+      "stream": "github:jspm/nodelibs-stream@0.1.0",
+      "url": "github:jspm/nodelibs-url@0.1.0",
+      "util": "github:jspm/nodelibs-util@0.1.0"
+    },
+    "github:jspm/nodelibs-https@0.1.0": {
+      "https-browserify": "npm:https-browserify@0.0.0"
+    },
 //    "github:jspm/nodelibs-process@0.1.1": {
 //      "process": "npm:process@0.10.1"
 //    },
@@ -55,9 +55,9 @@ System.config({
 //    "npm:assert@1.3.0": {
 //      "util": "npm:util@0.10.3"
 //    },
-//    "npm:babel-runtime@5.5.8": {
-//      "process": "github:jspm/nodelibs-process@0.1.1"
-//    },
+    "npm:babel-runtime@5.5.8": {
+      "process": "github:jspm/nodelibs-process@0.1.1"
+    },
 //    "npm:buffer@3.2.2": {
 //      "base64-js": "npm:base64-js@0.0.8",
 //      "ieee754": "npm:ieee754@1.1.6",
@@ -71,9 +71,9 @@ System.config({
 //    "npm:core-util-is@1.0.1": {
 //      "buffer": "github:jspm/nodelibs-buffer@0.1.0"
 //    },
-//    "npm:https-browserify@0.0.0": {
-//      "http": "github:jspm/nodelibs-http@1.7.1"
-//    },
+    "npm:https-browserify@0.0.0": {
+      "http": "github:jspm/nodelibs-http@1.7.1"
+    },
 //    "npm:inherits@2.0.1": {
 //      "util": "github:jspm/nodelibs-util@0.1.0"
 //    },
