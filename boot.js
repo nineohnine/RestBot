@@ -3,7 +3,6 @@ import { RestBot } from './lib/restbot/restbot';
 var bot = new RestBot(
     {
         base: 'https://api.github.com',
-        port: 443
     }
 );
 
